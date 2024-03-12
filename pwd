@@ -1,0 +1,27 @@
+warning: in the working copy of 'index.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'styles.css', CRLF will be replaced by LF the next time Git touches it
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 851edcf..299eddb 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -2,7 +2,7 @@[m
+ <html lang="en">[m
+ <head>[m
+     [m
+[31m-    <title>Document</title>[m
+[32m+[m[32m    <title>my project</title>[m
+ </head>[m
+ <body>[m
+     [m
+[1mdiff --git a/styles.css b/styles.css[m
+[1mindex e30dc71..6ef2753 100644[m
+[1m--- a/styles.css[m
+[1m+++ b/styles.css[m
+[36m@@ -1 +1,4 @@[m
+[31m-/* styles */[m
+\ No newline at end of file[m
+[32m+[m[32m/* styles */[m
+[32m+[m[32mp{[m
+[32m+[m[32m    color: black;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
